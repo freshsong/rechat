@@ -1,0 +1,101 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+ 
+ /* LOGIN */
+ .roundbox{
+    border-radius:20px;
+ }
+ .login-wrap{
+    position:relative;
+    background:#fff;
+    text-align:center;
+    padding:30px;
+    font-size:3em;
+ }
+ 
+ .login-wrap span{
+    background:#b409b4;
+    color:#fff;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    line-height:80px;
+    position:relative;
+ }
+ .login-wrap span img{
+     width:100px;
+     height:100px;
+     object-fit: cover;
+     border-radius:50%;
+     position:absolute;
+     top:0;
+     left:0;
+ }
+ 
+ .login-form{
+    padding-left:50px;
+    padding-right:50px;
+ }
+ .login-form input{
+    padding-top:10px;
+    padding-bottom:10px;
+    display:block;
+    margin-bottom:20px;
+    background-color:#ededed;
+ }
+ button.submit{
+   display:block !important;
+   width: 100%;
+   padding-top:10px;
+   padding-bottom:10px;
+ }
+ .link{
+   display:block;
+   margin-top:20px;
+   margin-bottom:50px;
+ }
+ .usericon{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+ }
+ .makechat{
+    width:400px;
+    margin:auto;
+    text-align:center;
+    padding-bottom:30px;
+    border-bottom:1px solid #ddd;
+ }
+ .chatroom{
+    border:1px solid #eee;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 15px 0 rgba(0,0,0,0.083);
+    padding:20px;   
+    text-align:center;
+    transition: all 300ms ease;
+ }
+ .chatroom a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:600;
+    display:block;
+    margin-bottom:15px;
+ }
+ .chatroom:hover{
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.12),
+                0 0 20px 0 rgba(0,0,0,0.123);
+ }
+ .sidebar{
+    left:0;
+    top:0;
+    width:100%;
+ }
